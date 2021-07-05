@@ -6,9 +6,9 @@ h1{
     font-size: 50px;
 }
 .spancolor{
-    color: Blue;
+    color:orange;
 }
-section{
+.flex-cont{
     display: flex;
     margin-bottom: 120px;
     
@@ -24,10 +24,10 @@ section{
 }
 .hireme-button{
     text-decoration: none;
-    background-image: linear-gradient(blue, red);
+    background-image: linear-gradient(black , red);
     padding: 10px 10px;
     border-radius: 5px;
-    color: white;
+    color: whitesmoke;
     font-weight: 800;
 
 }
@@ -45,4 +45,49 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-shd{
+    color:indigo;
+    text-shadow: indianred;
+}
+.shadow{
+    box-shadow: 10px 10px 40px lightcoral;
+    
+    margin-left: 6%;
+    margin-right: 6%;
+    border-radius: 80px;
+    border-left: 5px solid blue;
+}
+.new-shadow{
+    box-shadow: 8px 8px 30px black;
+    border-radius: 10px;
+    border-left: 5px solid maroon ;
+    margin-left: 6%;
+
+    
+}
+.add-back{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#front-bord{
+    border-left: 5px solid blue;
+}
+#beck-bord{
+    border-left: 5px solid orangered;
+}
+footer p{
+    text-align: center;
+    text-shadow: orchid;
+}
+.ff{
+    color: mediumvioletred;
+    border: 2px solid black;
+    width:25%;
+    padding: 10px 10px 10px 30px;
+    border-radius: 100px;
+    background-image: linear-gradient(white ,cyan);
+    margin-left: 1%;
 }
